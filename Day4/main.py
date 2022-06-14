@@ -53,7 +53,7 @@ elif player_choise == "1" and com_choise == 2:
   print(f"Your choise: {paper}")
   print(f"computer choise: {scissors}")
   print("You Lose")
-if player_choise == "2" and com_choise == 0:
+elif player_choise == "2" and com_choise == 0:
   print(f"Your choise: {scissors}")
   print(f"computer choise: {rock}")
   print("You Lose")
